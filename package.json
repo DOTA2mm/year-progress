@@ -1,0 +1,19 @@
+{
+  "name": "yearprogress",
+  "version": "1.0.0",
+  "description": "Year grogress notify server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "year-progress"
+  ],
+  "author": "Chuck <tengchenc@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "node-schedule": "^1.3.0",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  }
+}
