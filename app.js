@@ -11,8 +11,9 @@ function getYearProgress () {
   console.log(`百分比: ${percent}`);
   if (isInteger(percent)) {
     shareToWeibo(`${generateProgress(percent / 100).join('')}  ${percent}%
-      ———${currYear}年进度
-      PoweredBy https://blog.chenteng.me`);
+    ———${currYear} 年进度 🚀
+
+    PoweredBy https://blog.chenteng.me`);
   }
 }
 
